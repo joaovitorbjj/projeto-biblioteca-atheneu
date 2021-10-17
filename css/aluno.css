@@ -1,0 +1,42 @@
+.table{
+    border-collapse:collapse ;
+    width: 100%;
+    
+} 
+.table th,.table td{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.table th{
+    background-color: #3a78ff;
+    color: #ffff;
+}
+.table td{
+    background-color: white;
+}
+.table td img{
+    width: 24px;
+}
+.center{
+    text-align: center;
+}
+.situacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14vh;
+    height: 4vh;
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    
+}
+.situacao h1 {
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    font: arial;    
+}
+@media (max-width: 900px){
+    
+}
